@@ -1,0 +1,23 @@
+{
+    "name": "ozziest/mocker",
+    "description": "Simple mock objects for laravel bench packages",
+    "authors": [
+        {
+            "name": "Özgür Adem Işıklı",
+            "email": "i.ozguradem@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Ozziest\\Mocker\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
